@@ -23,7 +23,7 @@ install:		## Install dependencies
 	pip install -r requirements-test.txt
 	pip install -r requirements.txt
 
-STRESS_URL = https://your-api-url.run.app
+STRESS_URL = https://cenabast-challenge-11167662.onrender.com
 .PHONY: stress-test
 stress-test:
 	# change stress url to your deployed app
